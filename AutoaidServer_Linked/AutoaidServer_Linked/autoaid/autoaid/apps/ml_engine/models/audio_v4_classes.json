@@ -1,0 +1,110 @@
+{
+  "classes": [
+    "Dead or Weak Battery",
+    "Failed Ignition System",
+    "Low Engine Oil Level",
+    "Low Oil + Worn Serpentine Belt",
+    "Normal Brake Operation",
+    "Normal Engine Idle",
+    "Normal Engine Startup",
+    "Power Steering + Low Oil + Serpentine Belt",
+    "Power Steering Pump + Serpentine Belt Fault",
+    "Power Steering Pump Fault",
+    "Power Steering Pump Fault + Low Oil",
+    "Worn Brake Pads \u2014 Metal-on-Metal Contact",
+    "Worn or Loose Serpentine Belt"
+  ],
+  "fault_info": {
+    "Failed Ignition System": {
+      "part": "Ignition Switch / Starter Motor",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Vehicle will not start",
+      "specialization": "electrical",
+      "description": "Clicking or grinding on startup. Ignition switch or starter motor has failed."
+    },
+    "Dead or Weak Battery": {
+      "part": "Battery / Charging System",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Jump start or replace battery",
+      "specialization": "electrical",
+      "description": "Slow cranking or single click. Battery is critically discharged or alternator is not charging."
+    },
+    "Low Engine Oil Level": {
+      "part": "Engine Oil System",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Top up engine oil immediately",
+      "specialization": "engine",
+      "description": "Ticking or rattling from engine. Oil level is critically low. Stop driving and top up immediately."
+    },
+    "Low Oil + Worn Serpentine Belt": {
+      "part": "Engine Oil + Drive Belt",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Two faults detected",
+      "specialization": "engine",
+      "description": "Combined ticking (low oil) and squealing (serpentine belt). Both require immediate attention."
+    },
+    "Normal Brake Operation": {
+      "part": "Brake System",
+      "urgency": "low",
+      "urgency_label": "\ud83d\udfe2 No action needed",
+      "specialization": "brakes",
+      "description": "Brakes are functioning normally."
+    },
+    "Normal Engine Idle": {
+      "part": "Engine",
+      "urgency": "low",
+      "urgency_label": "\ud83d\udfe2 No action needed",
+      "specialization": "engine",
+      "description": "Engine is idling smoothly. No fault detected."
+    },
+    "Normal Engine Startup": {
+      "part": "Engine / Starter",
+      "urgency": "low",
+      "urgency_label": "\ud83d\udfe2 No action needed",
+      "specialization": "engine",
+      "description": "Engine cranks and starts normally."
+    },
+    "Power Steering Pump Fault + Low Oil": {
+      "part": "Power Steering Pump + Engine Oil",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Two faults detected",
+      "specialization": "suspension",
+      "description": "Whining power steering pump combined with engine ticking from low oil."
+    },
+    "Power Steering + Low Oil + Serpentine Belt": {
+      "part": "Power Steering / Oil / Drive Belt",
+      "urgency": "critical",
+      "urgency_label": "\ud83d\udd34 Critical \u2014 Three simultaneous faults",
+      "specialization": "engine",
+      "description": "Three concurrent faults. Do not drive. Requires full inspection immediately."
+    },
+    "Power Steering Pump + Serpentine Belt Fault": {
+      "part": "Power Steering Pump / Serpentine Belt",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Two faults detected",
+      "specialization": "suspension",
+      "description": "Power steering whine combined with serpentine belt squeal. Belt may be driving the pump."
+    },
+    "Power Steering Pump Fault": {
+      "part": "Power Steering Pump",
+      "urgency": "medium",
+      "urgency_label": "\ud83d\udfe1 Medium \u2014 Repair within a few days",
+      "specialization": "suspension",
+      "description": "Whining or groaning from power steering pump when turning. Check fluid level."
+    },
+    "Worn or Loose Serpentine Belt": {
+      "part": "Serpentine / Drive Belt",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Seek repair today",
+      "specialization": "engine",
+      "description": "Squealing from serpentine belt. Can snap suddenly, disabling alternator and power steering."
+    },
+    "Worn Brake Pads \u2014 Metal-on-Metal Contact": {
+      "part": "Brake Pads / Rotors",
+      "urgency": "critical",
+      "urgency_label": "\ud83d\udd34 CRITICAL \u2014 Stop driving immediately",
+      "specialization": "brakes",
+      "description": "Grinding from worn brake pads. Metal-on-metal contact. Braking distance severely compromised."
+    }
+  }
+}

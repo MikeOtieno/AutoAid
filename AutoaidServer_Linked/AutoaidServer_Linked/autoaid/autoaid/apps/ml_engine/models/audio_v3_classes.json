@@ -1,0 +1,110 @@
+{
+  "classes": [
+    "Dead or Weak Battery",
+    "Failed Ignition System",
+    "Low Engine Oil Level",
+    "Low Oil + Serpentine Belt Fault",
+    "Normal Brake Operation",
+    "Normal Engine Idle",
+    "Normal Engine Startup",
+    "Power Steering + Low Oil + Serpentine Belt",
+    "Power Steering Pump + Serpentine Belt Fault",
+    "Power Steering Pump Fault",
+    "Power Steering Pump Fault + Low Oil",
+    "Worn Brake Pads \u2014 Metal-on-Metal Contact",
+    "Worn or Loose Serpentine Belt"
+  ],
+  "fault_info": {
+    "Failed Ignition System": {
+      "part": "Ignition Switch / Starter Motor",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Vehicle will not start",
+      "specialization": "electrical",
+      "description": "Clicking or grinding on startup. The ignition switch or starter motor has failed. Vehicle cannot be driven. Requires immediate repair."
+    },
+    "Dead or Weak Battery": {
+      "part": "Battery / Charging System",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Jump start or replace battery",
+      "specialization": "electrical",
+      "description": "Slow cranking or single click on startup. Battery charge is critically low. May also indicate a faulty alternator not charging the battery properly."
+    },
+    "Low Engine Oil Level": {
+      "part": "Engine Oil System",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Top up engine oil immediately",
+      "specialization": "engine",
+      "description": "Ticking or rattling from the engine indicates critically low or dirty oil. Continued driving without oil will permanently damage engine components."
+    },
+    "Low Oil + Serpentine Belt Fault": {
+      "part": "Engine Oil System + Drive Belt",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Multiple faults detected",
+      "specialization": "engine",
+      "description": "Combined ticking (low oil) and squealing (serpentine belt) detected. Both faults require immediate attention. Check oil level and inspect drive belt."
+    },
+    "Normal Brake Operation": {
+      "part": "Brake System",
+      "urgency": "low",
+      "urgency_label": "\ud83d\udfe2 No action needed",
+      "specialization": "brakes",
+      "description": "Brakes are functioning normally. No abnormal sounds detected."
+    },
+    "Normal Engine Idle": {
+      "part": "Engine",
+      "urgency": "low",
+      "urgency_label": "\ud83d\udfe2 No action needed",
+      "specialization": "engine",
+      "description": "Engine is idling smoothly. No fault detected."
+    },
+    "Normal Engine Startup": {
+      "part": "Engine / Starter",
+      "urgency": "low",
+      "urgency_label": "\ud83d\udfe2 No action needed",
+      "specialization": "engine",
+      "description": "Engine cranks and starts normally. No fault detected."
+    },
+    "Power Steering Pump Fault + Low Oil": {
+      "part": "Power Steering Pump + Engine Oil",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Multiple faults detected",
+      "specialization": "suspension",
+      "description": "Whining from power steering pump combined with engine ticking from low oil. Check power steering fluid and engine oil levels. Steering may become stiff."
+    },
+    "Power Steering + Low Oil + Serpentine Belt": {
+      "part": "Power Steering / Oil System / Drive Belt",
+      "urgency": "critical",
+      "urgency_label": "\ud83d\udd34 Critical \u2014 Three simultaneous faults",
+      "specialization": "engine",
+      "description": "Three concurrent faults detected: power steering pump whine, low engine oil ticking, and serpentine belt squealing. Do not drive. Requires full inspection."
+    },
+    "Power Steering Pump + Serpentine Belt Fault": {
+      "part": "Power Steering Pump / Serpentine Belt",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Two faults detected",
+      "specialization": "suspension",
+      "description": "Whining from power steering combined with serpentine belt squealing. The serpentine belt drives the power steering pump \u2014 a worn belt may be causing both issues."
+    },
+    "Power Steering Pump Fault": {
+      "part": "Power Steering Pump",
+      "urgency": "medium",
+      "urgency_label": "\ud83d\udfe1 Medium \u2014 Repair within a few days",
+      "specialization": "suspension",
+      "description": "Whining or groaning from the power steering pump when turning. Likely low power steering fluid or a failing pump. Steering effort will increase progressively."
+    },
+    "Worn or Loose Serpentine Belt": {
+      "part": "Serpentine / Drive Belt",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Seek repair today",
+      "specialization": "engine",
+      "description": "Squealing or chirping from the serpentine belt. A failing belt can snap suddenly, disabling the alternator, power steering, AC and water pump simultaneously."
+    },
+    "Worn Brake Pads \u2014 Metal-on-Metal Contact": {
+      "part": "Brake Pads / Rotors",
+      "urgency": "critical",
+      "urgency_label": "\ud83d\udd34 CRITICAL \u2014 Stop driving immediately",
+      "specialization": "brakes",
+      "description": "Grinding or squealing from worn brake pads. Metal-on-metal contact is occurring. Braking distance is severely compromised. Do not drive until brake pads are replaced."
+    }
+  }
+}

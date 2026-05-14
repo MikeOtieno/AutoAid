@@ -1,0 +1,46 @@
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.env
+.env
+media/
+staticfiles/
+db.sqlite3
+
+# ML Models (too large)
+*.h5
+*.keras
+*.pkl
+
+# Android build outputs
+*.apk
+*.aab
+Zips/*/build/
+Zips/*/.gradle/
+Zips/*/local.properties
+Zips/*/captures/
+Zips/**/*.apk
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Secrets
+keys
+keys.pub
+*.pem
+
+# Unrelated desktop folders
+../car_damage_detection/
+../car_damage_detection.zip
+autoaid_backend_linked/
+autoaid_backend_linked.zip

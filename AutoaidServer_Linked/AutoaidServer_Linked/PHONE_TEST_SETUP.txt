@@ -1,0 +1,54 @@
+AUTOAID PHONE TEST SETUP
+
+This server is Django/DRF, not FastAPI. It now includes Android-compatible routes so the current Android app can talk to it.
+
+1) Open terminal in this folder:
+   cd AutoaidServer_Linked/autoaid
+
+2) Create and activate virtual environment:
+   python -m venv .venv
+   .venv\Scripts\activate        (Windows)
+   source .venv/bin/activate     (Mac/Linux)
+
+3) Install packages:
+   pip install -r ../requirements.txt
+
+4) Run migrations:
+   set DJANGO_SETTINGS_MODULE=autoaid.config.settings.development        (Windows CMD)
+   $env:DJANGO_SETTINGS_MODULE="autoaid.config.settings.development"     (PowerShell)
+   export DJANGO_SETTINGS_MODULE=autoaid.config.settings.development      (Mac/Linux)
+   python manage.py migrate
+
+5) Populate database:
+   cd ..
+   python seed_autoaid.py
+
+6) Start server for phone access:
+   cd autoaid
+   python manage.py runserver 0.0.0.0:8000
+
+7) Find your computer Wi-Fi IPv4 address:
+   Windows: ipconfig
+   Mac/Linux: ifconfig or ip addr
+
+8) In Android app/build.gradle set BASE_URL to:
+   "http://YOUR_COMPUTER_IP:8000/api/"
+   Example:
+   "http://192.168.1.25:8000/api/"
+
+9) Build/install the Android app on your phone.
+   Phone and computer must be on the same Wi-Fi.
+
+10) Test login:
+   email: driver@test.com
+   password: password123
+
+Compatible Android routes added:
+- POST /api/auth/register
+- POST /api/auth/login
+- POST /api/diagnostics/
+- GET  /api/garages/nearby?lat=-1.2864&lon=36.8172
+- POST /api/bookings/
+
+Swagger for native server routes:
+- http://YOUR_COMPUTER_IP:8000/api/schema/swagger/

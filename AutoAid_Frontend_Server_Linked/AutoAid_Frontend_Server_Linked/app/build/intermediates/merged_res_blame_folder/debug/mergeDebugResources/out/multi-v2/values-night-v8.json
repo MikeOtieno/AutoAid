@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.autoaid.app-mergeDebugResources-39:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mikeo\\.gradle\\caches\\8.13\\transforms\\ea421350dcb667c2b1a84589a66aa409\\transformed\\core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mikeo\\.gradle\\caches\\8.13\\transforms\\4e31ecd7d00dc8c7bdda14324fb5996a\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,39",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "141,211,295,379,475,577,679,3780",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "206,290,374,470,572,674,768,3864"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mikeo\\Desktop\\AutoAid\\AutoAid_Frontend_Server_Linked\\AutoAid_Frontend_Server_Linked\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "63",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "304"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "773",
+                        "endLines": "13",
+                        "endColumns": "12",
+                        "endOffsets": "1014"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mikeo\\.gradle\\caches\\8.13\\transforms\\3e2e0b7a374a5de95de6fde4b84807ab\\transformed\\material-1.11.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,241,330,431,538,645,744,851,954,1042,1166,1268,1370,1486,1588,1702,1830,1946,2068,2204,2324,2458,2578,2690,2816,2933,3057,3187,3309,3447,3581,3697",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "125,236,325,426,533,640,739,846,949,1037,1161,1263,1365,1481,1583,1697,1825,1941,2063,2199,2319,2453,2573,2685,2811,2928,3052,3182,3304,3442,3576,3692,3812"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,40,41,42,43,44,45,46,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1019,1094,1205,1294,1395,1502,1609,1708,1815,1918,2006,2130,2232,2334,2450,2552,2666,2794,2910,3032,3168,3288,3422,3542,3654,3869,3986,4110,4240,4362,4500,4634,4750",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1089,1200,1289,1390,1497,1604,1703,1810,1913,2001,2125,2227,2329,2445,2547,2661,2789,2905,3027,3163,3283,3417,3537,3649,3775,3981,4105,4235,4357,4495,4629,4745,4865"
+                    }
+                }
+            ]
+        }
+    ]
+}

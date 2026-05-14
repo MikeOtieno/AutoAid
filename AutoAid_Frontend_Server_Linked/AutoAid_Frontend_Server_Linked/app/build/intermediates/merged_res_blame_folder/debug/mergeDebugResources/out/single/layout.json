@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_diagnosis.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_diagnosis.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/item_request.xml",
+        "source": "com.autoaid.app-main-43:/layout/item_request.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_forgot_password.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_login.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/fragment_home.xml",
+        "source": "com.autoaid.app-main-43:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_diagnosis_result.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_diagnosis_result.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/fragment_profile.xml",
+        "source": "com.autoaid.app-main-43:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_register.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/item_garage.xml",
+        "source": "com.autoaid.app-main-43:/layout/item_garage.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_mechanic_details.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_mechanic_details.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_mechanics_map.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_mechanics_map.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/activity_service_request.xml",
+        "source": "com.autoaid.app-main-43:/layout/activity_service_request.xml"
+    },
+    {
+        "merged": "com.autoaid.app-mergeDebugResources-40:/layout/fragment_requests.xml",
+        "source": "com.autoaid.app-main-43:/layout/fragment_requests.xml"
+    }
+]

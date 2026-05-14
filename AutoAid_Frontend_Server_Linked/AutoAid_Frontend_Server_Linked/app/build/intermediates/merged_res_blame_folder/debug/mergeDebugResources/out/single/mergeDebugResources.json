@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.autoaid.app-debug-41:/drawable_placeholder_image.png.flat",
+        "source": "com.autoaid.app-main-43:/drawable/placeholder_image.png"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_service_request.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_service_request.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/drawable_ic_close.png.flat",
+        "source": "com.autoaid.app-main-43:/drawable/ic_close.png"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_register.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_mechanic_details.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_mechanic_details.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/drawable_ic_gallery.png.flat",
+        "source": "com.autoaid.app-main-43:/drawable/ic_gallery.png"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_fragment_requests.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/fragment_requests.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_diagnosis_result.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_diagnosis_result.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_item_garage.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/item_garage.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/drawable_ic_diagnose.jpg.flat",
+        "source": "com.autoaid.app-main-43:/drawable/ic_diagnose.jpg"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_login.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/xml_file_paths.xml.flat",
+        "source": "com.autoaid.app-main-43:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.autoaid.app-main-43:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/drawable_splash_logo.jpg.flat",
+        "source": "com.autoaid.app-main-43:/drawable/splash_logo.jpg"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/drawable_ic_camera.png.flat",
+        "source": "com.autoaid.app-main-43:/drawable/ic_camera.png"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_diagnosis.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_diagnosis.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_forgot_password.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_fragment_profile.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_fragment_home.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_item_request.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/item_request.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_mechanics_map.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_mechanics_map.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "com.autoaid.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/drawable_ic_mechanic.jpg.flat",
+        "source": "com.autoaid.app-main-43:/drawable/ic_mechanic.jpg"
+    },
+    {
+        "merged": "com.autoaid.app-debug-41:/drawable_ic_mic.jpg.flat",
+        "source": "com.autoaid.app-main-43:/drawable/ic_mic.jpg"
+    }
+]

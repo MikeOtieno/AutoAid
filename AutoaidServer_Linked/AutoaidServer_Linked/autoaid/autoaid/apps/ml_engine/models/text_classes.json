@@ -1,0 +1,76 @@
+{
+  "classes": [
+    "Airbag System Fault",
+    "Body Damage",
+    "Brake System Fault",
+    "Electrical System Fault",
+    "Engine Fault",
+    "Hydraulic System Fault",
+    "Seatbelt Fault",
+    "Steering System Fault",
+    "Sunroof / Moonroof Fault",
+    "Tire / Wheel Fault"
+  ],
+  "fault_info": {
+    "Engine Fault": {
+      "category": "engine",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Engine damage risk",
+      "specialization": "engine"
+    },
+    "Brake System Fault": {
+      "category": "brakes",
+      "urgency": "critical",
+      "urgency_label": "\ud83d\udd34 CRITICAL \u2014 Brake failure risk",
+      "specialization": "brakes"
+    },
+    "Electrical System Fault": {
+      "category": "electrical",
+      "urgency": "medium",
+      "urgency_label": "\ud83d\udfe1 Medium \u2014 Electrical inspection needed",
+      "specialization": "electrical"
+    },
+    "Body Damage": {
+      "category": "bodywork",
+      "urgency": "low",
+      "urgency_label": "\ud83d\udfe2 Low \u2014 Cosmetic / structural repair",
+      "specialization": "bodywork"
+    },
+    "Hydraulic System Fault": {
+      "category": "hydraulics",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Hydraulic fluid leak",
+      "specialization": "hydraulics"
+    },
+    "Airbag System Fault": {
+      "category": "airbags",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Safety system compromised",
+      "specialization": "electrical"
+    },
+    "Seatbelt Fault": {
+      "category": "seatbelt",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Safety restraint failure",
+      "specialization": "electrical"
+    },
+    "Sunroof / Moonroof Fault": {
+      "category": "sunroof",
+      "urgency": "low",
+      "urgency_label": "\ud83d\udfe2 Low \u2014 Convenience feature fault",
+      "specialization": "bodywork"
+    },
+    "Tire / Wheel Fault": {
+      "category": "tires",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Blowout or handling risk",
+      "specialization": "tires"
+    },
+    "Steering System Fault": {
+      "category": "steering",
+      "urgency": "high",
+      "urgency_label": "\ud83d\udfe0 High \u2014 Steering control compromised",
+      "specialization": "suspension"
+    }
+  }
+}
